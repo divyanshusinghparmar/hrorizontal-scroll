@@ -24,7 +24,7 @@ const Home = () => {
     }, 1000);
   }, []);
   useEffect(() => {
-    if (timer == 0) {
+    if (timer === 0) {
       clear();
     }
   }, [timer]);
